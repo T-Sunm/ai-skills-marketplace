@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-writing-reviewer",
+  "version": "1.0.0",
+  "description": "Review and improve writing by identifying common AI-generated writing patterns."
+}

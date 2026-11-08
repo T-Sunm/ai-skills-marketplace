@@ -1,0 +1,20 @@
+{
+  "name": "ai-skills-marketplace",
+  "interface": {
+    "displayName": "AI Skills Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ai-writing-reviewer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-writing-reviewer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

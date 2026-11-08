@@ -1,6 +1,10 @@
 ---
 name: ai-writing-reviewer
-description: Rà soát một đoạn văn (chủ yếu tiếng Việt) để tìm dấu hiệu "văn AI" rồi chỉ ra chỗ nào lộ, vì sao lộ, và gợi ý sửa cho tự nhiên hơn. Dùng skill này mỗi khi người dùng dán văn bản và nhờ check văn AI, rà văn, soi xem có giống AI viết không, humanize, làm cho bớt máy móc, sửa cho giống người viết, hoặc hỏi "đoạn này nghe có AI không". Dùng cả khi họ chỉ nói "đọc lại giúp mình xem nghe có tự nhiên không" hay đưa bài viết/caption/bài blog/email/bài luận và muốn giọng tự nhiên hơn, kể cả khi không nhắc chữ "AI".
+description: >-
+  Rà soát một đoạn văn (chủ yếu tiếng Việt) để tìm dấu hiệu "văn AI"
+  rồi chỉ ra chỗ nào lộ, vì sao lộ, và gợi ý sửa cho tự nhiên hơn.
+  Dùng skill này khi người dùng nhờ check văn AI, rà văn, humanize,
+  sửa văn cho bớt máy móc hoặc muốn bài viết nghe tự nhiên hơn.
 ---
 
 # Rà soát văn AI và gợi ý sửa

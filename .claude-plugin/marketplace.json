@@ -1,0 +1,14 @@
+{
+  "name": "ai-skills-marketplace",
+  "description": "Personal collection of reusable AI agent skills",
+  "owner": {
+    "name": "T-Sunm"
+  },
+  "plugins": [
+    {
+      "name": "ai-writing-reviewer",
+      "source": "./plugins/ai-writing-reviewer",
+      "description": "Review and improve AI-generated writing."
+    }
+  ]
+}

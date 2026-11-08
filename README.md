@@ -1,12 +1,19 @@
 # AI Skills Marketplace
 
-Marketplace Codex cho skill `ai-writing-reviewer`, dùng để rà và sửa văn bản tiếng Việt theo giọng tác giả.
+A marketplace for `ai-writing-reviewer`, a skill that reviews and revises Vietnamese writing while preserving the author's voice.
 
-## Cài đặt
+## Install with Codex
 
 ```sh
 codex plugin marketplace add T-Sunm/ai-skills-marketplace
 codex plugin add ai-writing-reviewer@ai-skills-marketplace
 ```
 
-Skill nằm tại [`plugins/ai-writing-reviewer/skills/ai-writing-reviewer/SKILL.md`](plugins/ai-writing-reviewer/skills/ai-writing-reviewer/SKILL.md). Danh mục dấu hiệu nằm trong thư mục `references/` ngay cạnh skill.
+## Install with Claude Code
+
+```sh
+claude plugin marketplace add T-Sunm/ai-skills-marketplace
+claude plugin install ai-writing-reviewer@ai-skills-marketplace
+```
+
+The [skill](plugins/ai-writing-reviewer/skills/ai-writing-reviewer/SKILL.md) uses its adjacent [`references/patterns.md`](plugins/ai-writing-reviewer/skills/ai-writing-reviewer/references/patterns.md) file.
